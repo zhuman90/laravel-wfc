@@ -3,7 +3,7 @@
 
 ## 安装
 ```
-composer require laravuel/wfc
+composer require laravuel/laravel-wfc
 ```
 
 ## 配置

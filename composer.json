@@ -1,5 +1,5 @@
 {
-    "name": "laravuel/wfc",
+    "name": "laravuel/laravel-wfc",
     "description": "微信小程序模板消息群发，laravel实现",
     "keywords": [
         "微信小程序",
