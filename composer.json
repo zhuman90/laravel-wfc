@@ -1,0 +1,33 @@
+{
+    "name": "laravuel/wfc",
+    "description": "微信小程序模板消息群发，laravel实现",
+    "keywords": [
+        "微信小程序",
+        "模板消息群发",
+        "消息群发",
+        "laravel",
+        "wechat template message"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "laravuel",
+            "email": "45761113@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laravuel\\laravel-wfc\\": "src/"
+        }
+    },
+    "require": {
+        "overtrue/wechat": "~4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laravuel\\LaravelWFC\\ServiceProvider"
+            ]
+        }
+    }
+}
